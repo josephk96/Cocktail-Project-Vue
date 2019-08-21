@@ -21,13 +21,13 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 html,
 body {
   box-sizing: border-box;
-
   background-color: #a8d0e7;
 }
+
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -35,9 +35,13 @@ body {
   text-align: center;
   color: #2c3e50;
   padding-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   background-color: #a8d0e7;
-  height: 100vh;
 }
 </style>

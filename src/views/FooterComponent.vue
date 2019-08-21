@@ -19,11 +19,19 @@ export default {};
 
 <style>
 .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: flex-end;
-  height: 25vh;
-  margin: 2rem 0;
+  height: 20vh;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #andre {
