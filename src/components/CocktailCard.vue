@@ -58,7 +58,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 .cocktail-card {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
